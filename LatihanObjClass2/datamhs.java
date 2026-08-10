@@ -1,3 +1,4 @@
+package LatihanObjClass2;
 public class datamhs {
     public String nama, nim, jurusan;
 
