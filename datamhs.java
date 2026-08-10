@@ -1,4 +1,4 @@
-public class Data_Mhs {
+public class datamhs {
     public String nama, nim, jurusan;
 
     public void tampilkanData(){
@@ -6,10 +6,12 @@ public class Data_Mhs {
         System.out.println("NIM Mahasiswa      : "+nim);
         System.out.println("Jurusan Mahasiswa  : "+jurusan);
     }
-    //mengisi nama, nim, jurusan   
-    public void isiData(String nama, String nim, String jurusan){
-        this.nama = nama;
-        this.nim = nim;
-        this.jurusan = jurusan;
+    public static void main(String[] args) {
+        datamhs mhs = new datamhs();
+        mhs.nama = "Adalah Pokoknya";
+        mhs.nim = "991273645";
+        mhs.jurusan = "Komputer Sains";
+
+        mhs.tampilkanData();
     }
 }
